@@ -18,3 +18,7 @@ a{
   text-decoration: none;
   font-weight: 600;
 }
+
+.Hero{
+  background: url('../images/wallpaper1.jpg');
+}
