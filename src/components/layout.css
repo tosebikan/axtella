@@ -20,5 +20,32 @@ a{
 }
 
 .Hero{
-  background: url('../images/wallpaper1.jpg');
+  background: linear-gradient(
+      rgba(140, 20, 252, 0.55),
+      rgba(140, 20, 252, 0.55)
+    ), url('../images/wallpaper1.jpg');
+  height: 920px;
+  background-size: cover;
+  background-position: center;
+}
+
+.HeroGroup{
+  margin: 0 20px;
+  max-width: 500px;
+  padding: 100px 20px;
+  text-align: left
+}
+
+.Hero h1{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 60px;
+}
+
+.Hero p{
+  color: white;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
 }
