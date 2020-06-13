@@ -47,5 +47,19 @@ a{
   color: white;
   font-family: sans-serif;
   font-size: 15px;
-  font-weight: lighter;
+}
+
+.ContactButton{
+  background-color: #FFD7A0;
+  border-width: 0;
+  padding: 9px 20px;
+  border-radius: 10px;
+}
+
+.ContactUsButton{
+  padding: 9px 20px;
+  border-width: 0;
+  background-color: white;
+  border-radius: 20px;
+  font-size: 10px;
 }

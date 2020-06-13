@@ -11,10 +11,10 @@ const IndexPage = () => (
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
-      <button>+233 54 135 6456</button>
+      <button className="ContactButton">+233 54 135 6456</button>
       <h1>FIND YOUR DREAM HOME TODAY</h1>
       <p>Contact Axtella for all your Construction & Real Estate Services.</p>
-      <button>Contact us</button>
+      <button className="ContactUsButton">Contact us</button>
      </div>
     </div>
 
