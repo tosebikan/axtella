@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image";
 import SEO from "../components/seo";
 
 
@@ -62,9 +61,21 @@ const IndexPage = () => {
      </form>
     </div>
 
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div>
+    <p>FEATURED LISTINGS</p>
+    <h1>FIND YOUR PERFECT HOME</h1>
+    <ul>
+      <li>
+        <img src={require('../images/home1.jpg')} alt="home1" width="200"/>
+        <p>For Sale</p>
+        <h2>Modern Apartment</h2>
+        <p>$1000/MO</p>
+      </li>
+    </ul>
+
     </div>
+
+
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>

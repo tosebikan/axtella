@@ -4,6 +4,7 @@ html {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  background-color: #2d3436;
 }
 body {
   margin: 0;
@@ -24,9 +25,10 @@ a{
       rgba(140, 20, 252, 0.55),
       rgba(140, 20, 252, 0.55)
     ), url('../images/wallpaper1.jpg');
-  height: 920px;
+  height: 600px;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,6 +45,7 @@ a{
   .Hero{
     flex-direction: column;
     justify-content: center;
+    height: 920px;
   }
   .HeroGroup{
   padding: 60px 20px;
