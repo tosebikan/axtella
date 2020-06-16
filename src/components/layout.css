@@ -36,6 +36,12 @@ a{
   text-align: left
 }
 
+@media (max-width: 640px){
+  .HeroGroup{
+    padding: 100px 5px; 
+  }
+}
+
 .Hero h1{
   color: white;
   margin-top: 15px;
