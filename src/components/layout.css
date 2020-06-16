@@ -27,6 +27,9 @@ a{
   height: 920px;
   background-size: cover;
   background-position: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .HeroGroup{
@@ -37,8 +40,12 @@ a{
 }
 
 @media (max-width: 640px){
+  .Hero{
+    flex-direction: column;
+    justify-content: center;
+  }
   .HeroGroup{
-    padding: 100px 5px; 
+  padding: 60px 20px;
   }
 }
 
@@ -60,6 +67,15 @@ a{
   border-width: 0;
   padding: 9px 20px;
   border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s;
+}
+
+.ContactButton:hover{
+  transform: scale(1.1);
 }
 
 .ContactUsButton{
@@ -68,4 +84,55 @@ a{
   background-color: white;
   border-radius: 20px;
   font-size: 10px;
+  transition: 0.1s
+}
+
+.ContactUsButton:hover{
+  transform: scale(1.1);
+}
+
+.Form{
+  background: #fff;
+  margin: 100px 40px;
+  color: purple;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  max-height: 400px;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+@media (max-width: 640px){
+  .Form{
+    margin: 0 20px;
+    max-width: 250px;
+  }
+}
+
+.Form input{
+  width:250px;
+  height: 30px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+.Form p{
+  color: purple;
+  margin-bottom: 0;
+}
+
+.Form button{
+  padding: 8px 20px;
+  border: none;
+  background: purple;
+  color: #fff;
+}
+
+.Message input{
+  height: 90px;
+  display: flex;
+  align-items: flex-start;
 }
