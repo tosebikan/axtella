@@ -4,15 +4,22 @@
   padding: 10px 0;
   z-index: 100;
   //background: black;
+  display: grid;
+  grid-template-areas: "logo headergroup"
+}
+.Logo{
+  margin: 0 0 0 20px;
 }
 
 .HeaderGroup{
-  max-width: 800px;
-  margin: 0 auto;
+  //max-width: 800px;
+  //margin: 0 auto;
+  grid-area: headergroup;
   display: grid;
-  grid-template-columns: repeat(7, auto);
+  grid-template-columns: repeat(6, auto);
   align-items: center;
   justify-items:  center;
+  padding: 0 5px;
 }
 
 .Header a{
@@ -21,11 +28,6 @@
   font-size: 15px;
 }
 
-@media (max-width: 640px){
-  .HeaderGroup{
-    grid-template-columns: repeat(1, auto)
-  }
-  .Header a:nth-child(n+2){
-    display: none;
-  }
+.Burger{
+  display: none;
 }
