@@ -32,7 +32,7 @@ const Header = ({ siteTitle }) => {
 
   return(
   <div className="Header">
-  <Link to="/"><img src={require('../images/logo.png')} width='100' alt={siteTitle} className="Logo"/></Link>
+  <Link to="/"><img src={require('../images/logo.png')} width='150' alt={siteTitle} className="Logo"/></Link>
   <button onClick={toggleNav} className="Burger">
     &#9776;
   </button>
