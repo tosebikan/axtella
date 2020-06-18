@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => {
   </button>
   {(!isSmallScreen || isNavVisible) && (
     <nav className="Nav">
-      <Link to="/about">Home</Link>
+      <Link to="/">Home</Link>
       <Link to="/about-us<">About us</Link>
       <Link to="/properties">Properties</Link>
       <Link to="/agents">Agents</Link>
