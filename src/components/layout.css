@@ -45,11 +45,11 @@ a{
   .Hero{
     flex-direction: column;
     justify-content: center;
-    height: 920px;
+    height: 980px;
   }
   .HeroGroup{
     margin-top: 20px;
-    padding: 100px 20px;
+    padding: 100px 20px 20px;
   }
 }
 
@@ -58,6 +58,11 @@ a{
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 60px;
+  opacity: 0;
+  animation: HeroAni;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
 }
 
 .Hero p{
@@ -68,6 +73,9 @@ a{
 
 .ContactButton{
   background-color: #FFD7A0;
+  //position: absolute;
+  //left: 0;
+  //top: 110px;
   border-width: 0;
   padding: 9px 20px;
   border-radius: 10px;
@@ -75,11 +83,27 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: 0.1s;
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);
+  animation: HeroAni;
+  animation-duration:1s;
 }
 
 .ContactButton:hover{
-  transform: scale(1.1);
+  background: black;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  transform: translateY(-3px);
+}
+
+@keyframes HeroAni {
+  0%{
+    opacity: 0;
+    transform: translatex(-100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translatex(0);
+  }
 }
 
 .ContactUsButton{
@@ -88,11 +112,15 @@ a{
   background-color: white;
   border-radius: 20px;
   font-size: 10px;
-  transition: 0.1s
+  cursor: pointer;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);;
 }
 
 .ContactUsButton:hover{
-  transform: scale(1.1);
+  background: black;
+  color: white;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3s);
+  transform: translateY(-3px);
 }
 
 .Form{
