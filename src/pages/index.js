@@ -106,6 +106,55 @@ const IndexPage = () => {
         {/*<img src={require('../images/about.jpg')} alt="US" className="AboutImage"/>*/}
     </div>
 
+    <div className="Featured">
+    <p>FIND YOUR PERFECT HOME</p>
+    <h1>UNIQUE LISTINGS</h1>
+    <ul>
+      <li>
+        <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Sale</p>
+        <h2>Modern Apartment</h2>
+        <p className="Price">$ 1000/MO</p>
+      </li>
+      <li>
+        <img src={require('../images/home2.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Sale</p>
+        <h2>Family Homes</h2>
+        <p className="Price">$ 800/MO</p>
+      </li>
+      <li>
+        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Rent</p>
+        <h2>Family Homes</h2>
+        <p className="Price">$ 900/MO</p>
+      </li>
+      <li>
+        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Sale</p>
+        <h2>Luxury Apartment</h2>
+        <p className="Price">$ 1200/MO</p>
+      </li>
+      <li>
+        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Rent</p>
+        <h2>Family Homes</h2>
+        <p className="Price">$ 900/MO</p>
+      </li>
+      <li>
+        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
+        <p className="Tag">For Sale</p>
+        <h2>Luxury Apartment</h2>
+        <p className="Price">$ 1200/MO</p>
+      </li>
+    </ul>
+    </div>
+
+    <div className="Help">
+    <p>WE'RE HERE TO HELP YOU</p>
+    <h1>WHAT ARE YOU LOOKING FOR</h1>
+
+    </div>
+
 
     <Link to="/page-2/">Go to page 2</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
