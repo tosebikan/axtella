@@ -66,31 +66,44 @@ const IndexPage = () => {
     <h1>FIND YOUR PERFECT HOME</h1>
     <ul>
       <li>
-        <img src={require('../images/home1.jpg')} alt="home1" width="250" height="250" max-width="100%"/>
+        <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Modern Apartment</h2>
         <p className="Price">$ 1000/MO</p>
       </li>
       <li>
-        <img src={require('../images/home2.jpg')} alt="home1" width="250" height="250" max-width="100%"/>
+        <img src={require('../images/home2.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Family Homes</h2>
         <p className="Price">$ 800/MO</p>
       </li>
       <li>
-        <img src={require('../images/home3.jpg')} alt="home1" width="250" height="250" max-width="100%"/>
+        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Rent</p>
         <h2>Family Homes</h2>
         <p className="Price">$ 900/MO</p>
       </li>
       <li>
-        <img src={require('../images/home4.jpg')} alt="home1" width="250" height="250" max-width="100%"/>
+        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Luxury Apartment</h2>
         <p className="Price">$ 1200/MO</p>
       </li>
     </ul>
+    </div>
 
+    <div className="AboutUs">
+      <div className="AboutGroup">
+      <h3>WHO WE ARE</h3>
+      <h1>ABOUT US</h1>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <button>Read More</button>
+      </div>
+        <div className="AboutImg">
+        </div>
+        {/*<img src={require('../images/about.jpg')} alt="US" className="AboutImage"/>*/}
     </div>
 
 

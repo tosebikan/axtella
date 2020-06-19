@@ -25,7 +25,7 @@ a{
       rgba(140, 20, 252, 0.55),
       rgba(140, 20, 252, 0.55)
     ), url('../images/wallpaper1.jpg');
-  height: 600px;
+  height: 700px;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -37,8 +37,8 @@ a{
 .HeroGroup{
   margin: 20px 20px;
   max-width: 500px;
-  padding: 100px 20px;
-  text-align: left
+  padding: 120px 20px;
+  text-align: left;
 }
 
 @media (max-width: 640px){
@@ -77,7 +77,7 @@ a{
   //left: 0;
   //top: 110px;
   border-width: 0;
-  padding: 8px 20px;
+  padding: 8px 25px;
   border-radius: 10px;
   color: #fff;
   display: flex;
@@ -107,7 +107,7 @@ a{
 }
 
 .ContactUsButton{
-  padding: 9px 20px;
+  padding: 9px 30px;
   border-width: 0;
   background-color: white;
   border-radius: 20px;
@@ -125,7 +125,7 @@ a{
 
 .Form{
   background: #fff;
-  margin: 100px 40px;
+  margin: 120px 40px;
   color: purple;
   display: flex;
   flex-direction: column;
@@ -177,9 +177,11 @@ a{
   margin: 40px 0;
 }
 
-
-.Featured img{
-
+.Img{
+  width: 250px;
+   height: 250px;
+   max-width: 100%;
+  object-fit: cover;
 }
 
 .Tag{
@@ -226,4 +228,37 @@ a{
 .Price{
   margin-top: 0;
   margin-left: 20px;
+}
+
+.AboutUs{
+  background: linear-gradient(
+      rgba(140, 20, 252, 0.55),
+      rgba(140, 20, 252, 0.55)
+    ), url('../images/about1.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.AboutGroup{
+  display: block;
+  margin: auto;
+  max-width: 400px;
+  color: white;
+}
+
+.AboutImg{
+  background: url('../images/about.jpg');
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin: auto;
+  width: 400px;
+  height:400px;
+  border-radius: 20px;
+
 }
