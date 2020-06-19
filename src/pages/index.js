@@ -103,7 +103,6 @@ const IndexPage = () => {
       </div>
         <div className="AboutImg">
         </div>
-        {/*<img src={require('../images/about.jpg')} alt="US" className="AboutImage"/>*/}
     </div>
 
     <div className="Featured">
