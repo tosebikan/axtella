@@ -20,6 +20,11 @@ a{
   font-weight: 600;
 }
 
+.Layout{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .Hero{
   background: linear-gradient(
       rgba(140, 20, 252, 0.55),
@@ -274,6 +279,28 @@ a{
   color: white;
 }
 
+.AboutGroup button{
+  padding: 8px 20px;
+  border: none;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:640px){
+  .AboutUs{
+    display: flex;
+    flex-direction: column;
+    height: 920px;
+    padding: 20px;
+  }
+
+  .AboutImg{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .AboutImg{
   background: url('../images/about.jpg');
   background-position: center;
@@ -296,7 +323,37 @@ a{
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    //justify-content: space-between;
+}
+
+@media (max-width: 640px){
+  .Help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .HelpGroup{
+    margin: 0;
+  }
+  .HelpCard{
+    padding: 0;
+  }
+
+  .HelpCard p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    word-wrap: normal;
+  }
+
+  .HelpCard li{
+    margin: 0;
+    padding: 0;
+  }
+  .HelpCard up{
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .HelpGroup{
@@ -319,7 +376,6 @@ a{
 }
 
 .HelpCard p{
- padding: 0 20px;
  word-wrap: break-word;
 }
 
@@ -327,7 +383,7 @@ a{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  //flex-wrap: wrap;
+  flex-wrap: wrap;
   text-align:center;
 }
 
