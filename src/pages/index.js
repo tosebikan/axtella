@@ -149,14 +149,42 @@ const IndexPage = () => {
     </div>
 
     <div className="Help">
+    <div className="HelpGroup">
     <p>WE'RE HERE TO HELP YOU</p>
     <h1>WHAT ARE YOU LOOKING FOR</h1>
+    </div>
 
+    <div className="HelpCard">
+      <ul>
+        <li>
+        <img src={require('../images/apartment.png')} alt="apartment" width="60px" height="60px"/>
+        <h3> APARTMENTS</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>Find Apartments</button>
+        </li>
+        <li>
+        <img src={require('../images/house.png')} alt="apartment" width="60px" height="60px"/>
+        <h3> HOUSES</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>Find Houses</button>
+        </li>
+        <li>
+        <img src={require('../images/office.png')} alt="apartment" width="60px" height="60px"/>
+        <h3>OFFICES</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <button>Find Offices</button>
+        </li>
+      </ul>
     </div>
 
 
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    </div>
+    <div className="Finder">
+      <p><i className="material-icons">phone_iphone</i>
+      +233 54 135 6456</p>
+      <h1>LET'S FIND THE RIGHT PROPERTY FOR YOU</h1>
+      <button>Contact us</button>
+    </div>
   </Layout>
 )}
 
