@@ -6,6 +6,7 @@ import SEO from "../components/seo";
 
 
 
+
 const IndexPage = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
