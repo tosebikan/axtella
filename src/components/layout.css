@@ -119,7 +119,7 @@ a{
 .ContactUsButton:hover{
   background: black;
   color: white;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.3s);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
   transform: translateY(-3px);
 }
 
@@ -290,11 +290,103 @@ a{
       rgba(140, 20, 252, 0.55),
       rgba(140, 20, 252, 0.55)
     ), url('../images/help.jpg');
-    height: 600px;
+    height: 720px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    //justify-content: space-between;
+}
+
+.HelpGroup{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.HelpCard{
+  //background: #fff;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.HelpCard p{
+ padding: 0 20px;
+ word-wrap: break-word;
+}
+
+.HelpCard ul{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  //flex-wrap: wrap;
+  text-align:center;
+}
+
+.HelpCard li{
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 30px;
+}
+
+.HelpCard button{
+  padding: 8px 20px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.HelpCard button:hover{
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.Finder{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+.Finder p{
+  display: flex;
+  align-items: center;
+}
+
+.Finder button{
+  padding: 8px 20px;
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.Finder button:hover{
+  cursor: pointer;
+  background: #000;
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  transform: translateY(-3px);
+}
+
+.Footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  height: 80px;
 }
