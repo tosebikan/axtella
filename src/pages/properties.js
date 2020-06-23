@@ -2,14 +2,14 @@ import React from 'react'
 import Layout from "../components/layout";
 
 
-const About = () => (
+const Properties = () => (
   <Layout>
   <div className="About-Hero">
     <div className="About-title">
-      <h1>About us</h1>
+      <h1>Properties</h1>
     </div>
   </div>
   </Layout>
 )
 
-export default About;
+export default Properties;
