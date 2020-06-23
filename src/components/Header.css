@@ -5,7 +5,8 @@
   z-index: 100;
   //background: black;
   display: grid;
-  grid-template-areas: "logo nav"
+  grid-template-areas: "logo nav";
+  //margin-bottom: 20px;
 }
 .Logo{
   grid-area: "logo";
