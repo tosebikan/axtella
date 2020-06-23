@@ -41,12 +41,25 @@ a{
 
 .HeroGroup{
   margin: 20px 20px;
-  max-width: 500px;
+  max-width: 720px;
   padding: 120px 20px;
   text-align: left;
 }
 
-@media (max-width: 640px){
+.Hero h1{
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 120px;
+  line-height: 1.2;
+  opacity: 0;
+  animation: HeroAni;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
+}
+
+@media (max-width: 750px){
   .Hero{
     flex-direction: column;
     justify-content: center;
@@ -55,19 +68,11 @@ a{
   .HeroGroup{
     margin-top: 20px;
     padding: 40px 20px 20px;
+    max-width: 500px;
   }
-}
-
-.Hero h1{
-  color: white;
-  margin-top: 15px;
-  margin-bottom: 10px;
-  font-size: 60px;
-  opacity: 0;
-  animation: HeroAni;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
+  .Hero h1{
+    font-size: 60px;
+  }
 }
 
 .Hero p{
@@ -155,6 +160,9 @@ a{
   margin-bottom: 15px;
   box-sizing: border-box;
   resize: vertical;
+  border: 1px solid #f0f0f0;
+  background-color: #f8f8f8;
+  padding: 0 5px;
 }
 
 .Form p{
@@ -169,10 +177,15 @@ a{
   color: #fff;
 }
 
-.Message input{
-  height: 90px;
-  display: flex;
-  align-items: flex-start;
+.Message textarea{
+  height: 120px;
+  width: 250px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  resize: vertical;
+  border: 1px solid #f0f0f0;
+  background-color: #f8f8f8;
+  padding: 0 5px;
 }
 
 .Featured{
@@ -463,6 +476,26 @@ a{
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: #f8f8f8;
   height: 80px;
+}
+
+/* About */
+.About-Hero{
+  background: linear-gradient(
+      rgba(140, 20, 252, 0.55),
+      rgba(140, 20, 252, 0.55)
+    ), url('../images/wallpaper1.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.About-title{
+  color: white;
+  padding: 200px 20px;
 }

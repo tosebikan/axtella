@@ -1,10 +1,8 @@
 import React, {useState} from "react"
-import { Link } from "gatsby"
+import { Link } from "gatsby";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo";
-
-
 
 
 const IndexPage = () => {
@@ -50,8 +48,7 @@ const IndexPage = () => {
      </label>
 
       <label className="Message">
-      <input
-        name='message'
+      <textarea
         value={message}
         placeholder="Message"
         onChange={(e) => setMessage(e.target.value)}
