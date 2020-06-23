@@ -54,7 +54,7 @@ a{
   }
   .HeroGroup{
     margin-top: 20px;
-    padding: 100px 20px 20px;
+    padding: 40px 20px 20px;
   }
 }
 
@@ -145,6 +145,7 @@ a{
   .Form{
     margin: 0 20px;
     max-width: 250px;
+    align-self: center;
   }
 }
 
