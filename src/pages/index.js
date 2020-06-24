@@ -3,6 +3,7 @@ import React, {useState} from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo";
+import data from '../data';
 
 
 const IndexPage = () => {
@@ -63,7 +64,7 @@ const IndexPage = () => {
     <p>FEATURED LISTINGS</p>
     <h1>FIND YOUR PERFECT HOME</h1>
     <ul>
-      <li>
+    <li>
         <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Modern Apartment</h2>
@@ -107,7 +108,15 @@ const IndexPage = () => {
     <p>FIND YOUR PERFECT HOME</p>
     <h1>UNIQUE LISTINGS</h1>
     <ul>
-      <li>
+    {data.properties.map((property, id) =>
+      <li key={id}>
+      <img src={property.image} alt='property' className="Img"/>
+      <p className="Tag">{property.tag}</p>
+      <h2>{property.title}</h2>
+      <p className="Price">${property.price}</p>
+      </li>
+    )}
+      {/*<li>
         <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Modern Apartment</h2>
@@ -142,7 +151,7 @@ const IndexPage = () => {
         <p className="Tag">For Sale</p>
         <h2>Luxury Apartment</h2>
         <p className="Price">$ 1200/MO</p>
-      </li>
+      </li>*/}
     </ul>
     </div>
 
