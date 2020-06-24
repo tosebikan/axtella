@@ -9,7 +9,7 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home1.jpg',
+    image: require("./images/home1.jpg"),
     featured: true
   },
   {
@@ -21,7 +21,7 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home2.jpg',
+    image: require('./images/home2.jpg'),
     featured: true
   },
   {
@@ -33,7 +33,7 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home2.jpg',
+    image: require('./images/home2.jpg'),
     featured: true
   },
   {
@@ -45,7 +45,7 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home2.jpg',
+    image: require('./images/home2.jpg'),
     featured: true
   },
   {
@@ -57,7 +57,7 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home2.jpg',
+    image: require('./images/home2.jpg'),
     featured: false
   },
   {
@@ -69,9 +69,9 @@ properties:[
     bedrooms: 3,
     Baths: 4,
     size: 150,
-    image: './images/home2.jpg',
+    image: require('./images/home2.jpg'),
     featured: false
-  },
+  }
 ]
  }
 
