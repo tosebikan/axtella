@@ -2,7 +2,9 @@ import React from 'react'
 import Layout from "../components/layout";
 
 
-const PropertyDetails = () => (
+const PropertyDetails = (props) => {
+  //console.log(props.match.params.id)
+  return(
   <Layout>
   <div className="About-Hero">
     <div className="About-title">
@@ -10,6 +12,6 @@ const PropertyDetails = () => (
     </div>
   </div>
   </Layout>
-)
+)}
 
 export default PropertyDetails;
