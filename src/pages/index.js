@@ -1,16 +1,18 @@
 import React, {useState} from "react"
-//import { Link } from "gatsby";
+import { Link } from "gatsby";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo";
 import data from '../data';
 
 
-const IndexPage = () => {
+const IndexPage = (props) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
 
+  const featured = data.properties.filter((property) => property.featured === true);
+  //console.log(featured)
   return(
   <Layout>
     <SEO title="Home" />
@@ -64,7 +66,15 @@ const IndexPage = () => {
     <p>FEATURED LISTINGS</p>
     <h1>FIND YOUR PERFECT HOME</h1>
     <ul>
-    <li>
+    {featured.map((feature, id) =>
+      <li key={id}>
+          <Link to={`/property:${feature.id}/`}><img src={feature.image} alt="home1" className="Img"/></Link>
+          <p className="Tag">{feature.tag}</p>
+          <h2>{feature.title}</h2>
+          <p className="Price">{feature.price}</p>
+        </li>
+    )}
+    {/*<li>
         <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
         <p className="Tag">For Sale</p>
         <h2>Modern Apartment</h2>
@@ -87,7 +97,7 @@ const IndexPage = () => {
         <p className="Tag">For Sale</p>
         <h2>Luxury Apartment</h2>
         <p className="Price">$ 1200/MO</p>
-      </li>
+      </li>*/}
     </ul>
     </div>
 
@@ -116,42 +126,6 @@ const IndexPage = () => {
       <p className="Price">${property.price}</p>
       </li>
     )}
-      {/*<li>
-        <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Modern Apartment</h2>
-        <p className="Price">$ 1000/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home2.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Family Homes</h2>
-        <p className="Price">$ 800/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Rent</p>
-        <h2>Family Homes</h2>
-        <p className="Price">$ 900/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Luxury Apartment</h2>
-        <p className="Price">$ 1200/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Rent</p>
-        <h2>Family Homes</h2>
-        <p className="Price">$ 900/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Luxury Apartment</h2>
-        <p className="Price">$ 1200/MO</p>
-      </li>*/}
     </ul>
     </div>
 
