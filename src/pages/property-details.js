@@ -25,10 +25,39 @@ const PropertyDetails = (props) => {
         <h3>{property.tag}</h3>
         </div>
       </div>
+
+      <div className="Prop-Extra">
+        <div className="Prop-ExtraInfo">
+          <h3>Bedrooms</h3>
+          <div className="Prop-ExtraBlock">
+          <i className="material-icons">phone_iphone</i>
+          <h3 className="Info-Num">{property.bedrooms}</h3>
+        </div>
+      </div>
+        <div className="Prop-ExtraInfo">
+          <h3>Bathrooms</h3>
+          <div className="Prop-ExtraBlock">
+          <i className="material-icons">phone_iphone</i>
+          <h3 className="Info-Num">{property.baths}</h3>
+        </div>
+      </div>
+
+        <div className="Prop-ExtraInfo">
+          <h3>Size</h3>
+          <div className="Prop-ExtraBlock">
+          <i className="material-icons">phone_iphone</i>
+          <h3 className="Info-Num">{property.size} sqft</h3>
+        </div>
+      </div>
+      </div>
+
+      <div className="Description">
+      <h3>Description</h3>
+      <h4>"{property.details}"</h4>
+      </div>
     </div>
     <div className="Map">
     <img alt="home1" src={require('../images/test.jpg')}/>
-    {/*  <img src={property.image} alt="home1"/> */}
     </div>
   </div>
 
