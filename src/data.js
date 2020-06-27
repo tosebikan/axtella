@@ -7,10 +7,11 @@ properties:[
     price: '100,000',
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require("./images/home1.jpg"),
     featured: true,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
     id: '2',
@@ -19,10 +20,11 @@ properties:[
     price: 800,
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require('./images/home2.jpg'),
-    featured: true
+    featured: true,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
     id: '3',
@@ -31,10 +33,11 @@ properties:[
     price: '900/Mo',
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require('./images/home2.jpg'),
-    featured: true
+    featured: true,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
     id: '4',
@@ -43,10 +46,11 @@ properties:[
     price: '120,000',
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require('./images/home2.jpg'),
-    featured: true
+    featured: true,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
     id: '5',
@@ -55,10 +59,11 @@ properties:[
     price: '900/Mo',
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require('./images/home2.jpg'),
-    featured: false
+    featured: false,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
   {
     id: '6',
@@ -67,10 +72,11 @@ properties:[
     price: '120,000',
     address: '123 Fifth Avenue, East-Legon',
     bedrooms: 3,
-    Baths: 4,
+    baths: 4,
     size: 150,
     image: require('./images/home2.jpg'),
-    featured: false
+    featured: false,
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   }
 ]
  }
