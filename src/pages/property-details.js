@@ -30,14 +30,14 @@ const PropertyDetails = (props) => {
         <div className="Prop-ExtraInfo">
           <h3>Bedrooms</h3>
           <div className="Prop-ExtraBlock">
-          <i className="material-icons">phone_iphone</i>
+          <i className="material-icons">airline_seat_individual_suite</i>
           <h3 className="Info-Num">{property.bedrooms}</h3>
         </div>
       </div>
         <div className="Prop-ExtraInfo">
           <h3>Bathrooms</h3>
           <div className="Prop-ExtraBlock">
-          <i className="material-icons">phone_iphone</i>
+          <i className="material-icons">bathtub</i>
           <h3 className="Info-Num">{property.baths}</h3>
         </div>
       </div>
@@ -45,8 +45,8 @@ const PropertyDetails = (props) => {
         <div className="Prop-ExtraInfo">
           <h3>Size</h3>
           <div className="Prop-ExtraBlock">
-          <i className="material-icons">phone_iphone</i>
-          <h3 className="Info-Num">{property.size} sqft</h3>
+          <i className="material-icons">square_foot</i>
+          <h3 className="Info-Num">{property.size}sqft</h3>
         </div>
       </div>
       </div>
@@ -58,6 +58,13 @@ const PropertyDetails = (props) => {
     </div>
     <div className="Map">
     <img alt="home1" src={require('../images/test.jpg')}/>
+    <div className="Map-Info">
+    <i className="material-icons">place</i>
+    <h3>{property.address}</h3>
+    </div>
+    <div className="Map-Button-Container">
+    <button className="Map-Button">Contact Us</button>
+    </div>
     </div>
   </div>
 

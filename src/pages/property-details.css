@@ -84,8 +84,6 @@
   margin-left: 11px;
 }
 
-
-
 .Description{
   display: flex;
   flex-direction: row;
@@ -97,4 +95,71 @@
 .Description h4{
   text-align: left;
   margin-left: 50px;
+}
+
+.Map-Info{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Map-Info h3{
+  margin-left:10px;
+}
+
+.material-icons{
+  color: #4A90E2;
+}
+
+.Map-Button-Container{
+  text-align: center;
+}
+.Map-Button{
+  padding: 8px 20px;
+  background: white;
+  border-radius: 20px;
+  border: none;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+.Map-Button:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #4A90E2;
+  transform: translateY(-3px);
+  box-shadow: rgba(255, 0, 0, 0.25);
+}
+
+@media (max-width: 750px){
+  .Details{
+    display: flex;
+    flex-direction: column;
+  }
+  .Prop-Details img{
+    max-width: 100%;
+    max-height: 450px;
+    border-radius: 20px;
+  }
+  .Prop-Info1 h1{
+    font-size: 20px;
+  }
+  .Prop-Info1 h3{
+    font-size: 18px;
+  }
+  .Prop-Info2 h1{
+    font-size: 20px;
+  }
+  .Prop-Info2 h3{
+    font-size: 18px;
+  }
+  .Prop-ExtraInfo h3{
+    font-size: 18px;
+  }
+
+  .Description h3{
+    font-size: 18px;
+  }
+  .Description h4{
+    font-size: 15px;
+  }
 }
