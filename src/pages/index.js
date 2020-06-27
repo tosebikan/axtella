@@ -1,7 +1,9 @@
 import React, {useState} from "react"
 import { Link } from "gatsby";
+import {Router} from '@reach/router';
 
 import Layout from "../components/layout"
+import PropertyDetails from './property-details';
 import SEO from "../components/seo";
 import data from '../data';
 
@@ -62,13 +64,17 @@ const IndexPage = (props) => {
      </form>
     </div>
 
+    {/*<Router>
+      <PropertyDetails path="/app/property-details/:id" />
+    </Router>*/}
+
     <div className="Featured">
     <p>FEATURED LISTINGS</p>
     <h1>FIND YOUR PERFECT HOME</h1>
     <ul>
     {featured.map((feature, id) =>
       <li key={id}>
-          <Link to={`/property:${feature.id}/`}><img src={feature.image} alt="home1" className="Img"/></Link>
+          <Link to={`/app/property-details/${feature.id}`}><img src={feature.image} alt="home1" className="Img"/></Link>
           <p className="Tag">{feature.tag}</p>
           <h2>{feature.title}</h2>
           <p className="Price">{feature.price}</p>
