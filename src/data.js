@@ -1,7 +1,7 @@
  const data={
 properties:[
   {
-    id: 1,
+    id: '1',
     tag: 'For Sale',
     title: 'Modern Apartment',
     price: '100,000',
@@ -10,10 +10,10 @@ properties:[
     Baths: 4,
     size: 150,
     image: require("./images/home1.jpg"),
-    featured: true
+    featured: true,
   },
   {
-    id: 2,
+    id: '2',
     tag: 'For Sale',
     title: 'Family Home',
     price: 800,
@@ -25,7 +25,7 @@ properties:[
     featured: true
   },
   {
-    id: 3,
+    id: '3',
     tag: 'For Rent',
     title: 'Family Home',
     price: '900/Mo',
@@ -37,7 +37,7 @@ properties:[
     featured: true
   },
   {
-    id: 4,
+    id: '4',
     tag: 'For Sale',
     title: 'Luxury Apartment',
     price: '120,000',
@@ -49,7 +49,7 @@ properties:[
     featured: true
   },
   {
-    id: 5,
+    id: '5',
     tag: 'For Rent',
     title: 'Family Homes',
     price: '900/Mo',
@@ -61,7 +61,7 @@ properties:[
     featured: false
   },
   {
-    id: 6,
+    id: '6',
     tag: 'For Sale',
     title: 'Luxury Apartment',
     price: '120,000',
