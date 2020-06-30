@@ -26,12 +26,36 @@ const About = () => (
   </div>
   </div>
   <div className="Services">
-    <h3>Services</h3>
+    <h2>Services</h2>
+    <div className="Services-Stack">
     <div className="Service">
+    <div className="Icon-Container">
     <i className="material-icons">place</i>
+    </div>
       <p>Real Estate</p>
     </div>
+    <div className="Service">
+    <div className="Icon-Container">
+    <i className="material-icons">place</i>
+    </div>
+      <p>Hotel Management</p>
+    </div>
+    <div className="Service">
+    <div className="Icon-Container">
+    <i className="material-icons">place</i>
+    </div>
+      <p>Land</p>
+    </div>
+    </div>
+  </div>
+  <div className="Quote">
+  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+  <div className="Profile">
+  <img src={require('../images/about.jpg')}alt="profile"/>
+  <h3>Edward</h3>
+  <h4>-Axtella</h4>
 
+  </div>
   </div>
   </Layout>
 )

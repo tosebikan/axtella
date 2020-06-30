@@ -7,6 +7,7 @@
   justify-content: space-between;
   padding: 120px 20px 20px;
   color: #fff;
+  height: 700px;
 }
 
 .About1{
@@ -50,6 +51,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 600px;
   }
 
   .About1 h1{
@@ -58,16 +60,91 @@
 
   .About-Image{
     display: flex;
+    align-self: center;
+    max-width: 350px;
+    max-height: 400px;
     flex: 0.5;
   }
 
 }
 
-.Service{
+.Services{
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
 }
 
-.Services h3{
+.Services h2{
   color: #fff;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.Services-Stack{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.Service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.Icon-Container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  width: 100px;
+  height: 90px;
+  border-radius: 20px;
+}
+
+@media (max-width: 700px){
+  .Icon-Container{
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+  }
+}
+
+.Quote{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.Quote p{
+  text-align: center;
+  max-width: 350px;
+}
+
+.Profile{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.Profile img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.Profile h3{
+  margin-left: 20px;
+}
+.Profile h4{
+  margin-left: 10px;
+  color: #9B9B9B;
 }
