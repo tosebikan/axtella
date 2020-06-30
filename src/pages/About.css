@@ -1,0 +1,38 @@
+.About-Hero{
+  display: flex;
+  flex-direction: row;
+  padding: 120px 20px 20px;
+
+}
+
+.About1{
+  display: flex;
+  flex-direction: column;
+  flex: 1 1;
+  max-width: 460px;
+}
+
+.About1 h1{
+  margin-bottom: 0;
+}
+
+.About p{
+  text-align: left;
+}
+
+.About-Button button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 20px;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+.About-Image{
+  display: flex;
+  flex: 1 1;
+  max-width: 380px;
+  max-height: 330px;;
+}
