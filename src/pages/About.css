@@ -1,3 +1,6 @@
+#body{
+  color: #fff;
+}
 .About-Hero{
   display: flex;
   flex-direction: row;
@@ -18,14 +21,14 @@
 
 .About1 p{
   text-align: left;
-max-width: 80%;
+  max-width: 80%;
 }
 
 .About-Button button{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 8px 20px;
+  padding: 8px 25px;
   background: #fff;
   border: none;
   border-radius: 20px;
@@ -33,11 +36,38 @@ max-width: 80%;
 
 .About-Image{
   display: flex;
-  flex: 1 1;
+  flex: 1 2;
 }
 
 .About-Image img{
   max-width: 100%;
   max-height: 405px;
   border-radius: 20px;
+}
+
+@media (max-width: 700px){
+  .About-Hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .About1 h1{
+    margin-top:0;
+  }
+
+  .About-Image{
+    display: flex;
+    flex: 0.5;
+  }
+
+}
+
+.Service{
+  color: #fff;
+}
+
+.Services h3{
+  color: #fff;
+  text-align: center;
 }

@@ -24,6 +24,13 @@ const About = () => (
   <div className="About-Image">
   <img src={require('../images/about.jpg')} alt="aboutus"/>
   </div>
+  </div>
+  <div className="Services">
+    <h3>Services</h3>
+    <div className="Service">
+    <i className="material-icons">place</i>
+      <p>Real Estate</p>
+    </div>
 
   </div>
   </Layout>
