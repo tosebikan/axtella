@@ -82,6 +82,8 @@ a{
   font-size: 15px;
 }
 
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+
 .ContactButton{
   background-color: #FFD7A0;
   //position: absolute;
