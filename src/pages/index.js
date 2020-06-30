@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import {Router} from '@reach/router';
 
 import Layout from "../components/layout"
-import PropertyDetails from './property-details';
+import '../components/layout.css';
 import SEO from "../components/seo";
 import data from '../data';
 
@@ -21,7 +21,7 @@ const IndexPage = (props) => {
     <div className="Hero">
       <div className="HeroGroup">
       <button className="ContactButton">
-      <i className="material-icons">phone_iphone</i>
+      <i style={{color: '#fff'}}className="material-icons">phone_iphone</i>
       +233 54 135 6456</button>
       <h1>FIND YOUR DREAM HOME TODAY</h1>
       <p>Contact Axtella for all your Construction & Real Estate Services.</p>
