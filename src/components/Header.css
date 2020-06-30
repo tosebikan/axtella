@@ -28,7 +28,7 @@
   justify-items:  center;
   //padding: 0 5px;
   animation: NavAnimation;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
   transition: 1s cubic-bezier(0.2,0.8,0.2,1);
 
