@@ -119,3 +119,18 @@
     margin-bottom: 0;
   }
 }
+
+.Form-Button{
+  padding: 8px 20px;
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Form-Button:hover{
+background-color: #000;
+color: #fff;
+transform: translateY(-3px);
+box-shadow: 0 20px 40px rgba(0,0,0, 0.5);
+}
