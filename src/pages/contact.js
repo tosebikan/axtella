@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import Layout from "../components/layout";
 import './contact.css';
+import Map from './Map';
 
 
 const Contact = () => {
@@ -8,11 +9,15 @@ const Contact = () => {
   const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
   return(
   <Layout>
   <div className="Contact-Hero">
     <div className='Contact-Map-Section'>
-    <img src={require('../images/map.jpg')} alt="contact map"/>
+    {/*<img src={require('../images/map.jpg')} alt="contact map"/>*/}
+    <div className="Map-Container">
+    <Map />
+    </div>
       <div className="Contact-Address">
       <i style={{color: 'red'}}className="material-icons">place</i>
       <p>Coastal Spintex, Accra</p>

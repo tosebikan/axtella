@@ -15,7 +15,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding:
+  padding-top: 120px;
+}
+
+.Map-Container{
+  width: 800px;
+  height: 400px;
 }
 
 
@@ -117,6 +122,11 @@
 
   .Contact-Info-Form{
     margin-bottom: 0;
+  }
+
+  .Map-Container{
+    max-width: 500px;
+    max-height: 400px;
   }
 }
 
