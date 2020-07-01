@@ -1,9 +1,9 @@
 .Contact-Hero{
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7),
-      rgba(0, 0, 0, 0.7)
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.8)
     ), url('../images/wallpaper1.jpg');
-  height: 700px;
+  height: 100%;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -31,4 +31,85 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.Contact-Info{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Contact-Info-Details{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-Info-Details-Block{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px
+}
+
+.Contact-Info-Details-Block h4{
+  margin: 0;
+}
+.Contact-Info-Details-Block p{
+  color: #9B9B9B;
+  margin: 0;
+}
+
+.Contact-Info-Form{
+  max-width: 400px;
+  margin-bottom: 150px;
+}
+
+
+.Name input{
+  background: none;
+  border: 1px solid #979797;
+  height: 25px;
+  width: 180px;
+  padding-left: 5px;
+  margin-right: 5px;
+}
+.Phone input{
+  background: none;
+  border: 1px solid #979797;
+  height: 25px;
+  width: 180px;
+  padding-left: 5px;
+}
+.Email input{
+  margin-top: 10px;
+  background: none;
+  border: 1px solid #979797;
+  height: 25px;
+  width: 372px;
+  padding-left: 5px;
+}
+
+.Message textarea{
+  height: 100%;
+  width: 380px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  resize: vertical;
+  border: 1px solid #979797;
+  background: none;
+  padding: 5px;
+}
+
+@media (max-width: 700px){
+  .Contact-Info{
+    display: flex;
+    flex-direction: column;
+  }
+  .Message textarea{
+    height: 170px;
+  }
+
+  .Contact-Info-Form{
+    margin-bottom: 0;
+  }
 }
