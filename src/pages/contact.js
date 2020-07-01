@@ -60,11 +60,11 @@ const Contact = () => {
         required
         />
       </label>
-      <label className="Message">
+      <label className="Contact-Message">
         <textarea
         value={message}
         placeholder="message"
-        onChange={(e) => e.target.value}
+        onChange={(e) => setMessage(e.target.value)}
         required/>
       </label>
       <button className="Form-Button">send message</button>
