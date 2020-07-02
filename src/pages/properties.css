@@ -78,9 +78,9 @@
   flex-direction: column;
   background: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
-  height: 20px;
+  height: 50px;
+  padding:10px 15px;
   margin: 150px 20px 0;
-
 }
 
 
@@ -157,7 +157,6 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
-
   }
 
   .Prop-Section{
@@ -172,7 +171,9 @@
   }
   .Prop-Details{
     margin: 100px 0 0 15px;
-    width: 130px;
+    width: 140px;
+    height: 30px;
+    border-radius: 15px;
   }
 
   .Prop-Details-Top p{
