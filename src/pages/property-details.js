@@ -13,7 +13,7 @@ const PropertyDetails = (props) => {
   return(
   <Layout>
   <div className="Details">
-    <div className="Prop-Details">
+    <div className="Prop-Details-Section">
       <img alt="home1" src={require('../images/test.jpg')}/>
       <div className="Prop-Info">
         <div className="Prop-Info1">
