@@ -21,8 +21,19 @@
   font-weight: bold;
 }
 
+.Prop-Container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .Prop-Section{
   margin: 20px 0;
+  height: 225px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
 }
 
 .Center{
@@ -30,7 +41,52 @@
   width: 300px;
   border-radius: 20px;
   object-fit: cover;
+  position: absolute;
+  top: 0;
+  z-index: -1;
 }
+
+.Prop-Details{
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  height: 20px;
+  margin: 150px 20px 0;
+
+}
+
+
+
+.Prop-Details-Top{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.Prop-Details-Top p{
+  color: #4A90E2;
+  font-size: 18px;
+}
+
+.Prop-Details-Bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.Prop-Details-Bottom p{
+  color: #9B9B9B;
+  font-size: 15px;
+}
+.Prop-Details-Bottom h4{
+  color: #000;
+  font-size: 15px;
+}
+
+
 
 @media (max-width: 700px){
   .Prop-Banner{
@@ -43,9 +99,32 @@
     font-size: 18px;
     font-weight: bold;
   }
-  .Prop-Card{
-    margin-top: 20px;
-    height: 110px;
-    width: 150px;
+
+  .Center{
+    height: 170px;
+    width: 200px;
   }
+  .Prop-Details{
+    margin: 100px 0 0 15px;
+    width: 130px;
+  }
+
+  .Prop-Details-Top p{
+    font-size: 12px;
+  }
+  .Prop-Details-Bottom p{
+    font-size: 10px;
+  }
+  .Prop-Details-Bottom h4{
+    color: #000;
+    font-size: 10px;
+  }
+
+  .Prop-Section{
+    margin: 20px 0;
+    height: 170px;
+    width: 200px;
+  }
+
+
 }
