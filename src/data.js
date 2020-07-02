@@ -35,7 +35,7 @@ properties:[
     bedrooms: 3,
     baths: 4,
     size: 150,
-    image: require('./images/home2.jpg'),
+    image: require('./images/home3.jpg'),
     featured: true,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
@@ -48,7 +48,7 @@ properties:[
     bedrooms: 3,
     baths: 4,
     size: 150,
-    image: require('./images/home2.jpg'),
+    image: require('./images/home4.jpg'),
     featured: true,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   },
@@ -74,7 +74,7 @@ properties:[
     bedrooms: 3,
     baths: 4,
     size: 150,
-    image: require('./images/home2.jpg'),
+    image: require('./images/home1.jpg'),
     featured: false,
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
   }
