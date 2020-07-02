@@ -1,0 +1,51 @@
+.Prop-Hero{
+  padding: 20px;
+  height:100%
+}
+
+.Prop-Banner{
+  background: url('../images/propBanner.jpg');
+    height: 286px;
+    width: 100%;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 100px;
+}
+
+
+.Prop-Hero-Text{
+  padding-top: 20px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Prop-Card{
+  margin-top: 20px;
+  height: 225px;
+  width: 300px;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.Prop-Card img{
+  position: absolute;
+  top: 0;
+  height: 110%;
+  z-index: -1;
+}
+
+@media (max-width: 700px){
+  .Prop-Banner{
+    height: 150px;
+    width: 100%;
+  }
+  .Prop-Hero-Text{
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
