@@ -14,8 +14,8 @@ const Properties = () => (
       </div>
     </div>
 
-    <div className="Prop-Card">
-    <img src={require('../images/home1.jpg')} alt="nice-house"/>
+    <div className="Prop-Section">
+    <img className="Center" src={require('../images/home1.jpg')} alt="nice-house"/>
 
     </div>
   </div>
