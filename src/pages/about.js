@@ -15,7 +15,6 @@ const About = () => (
 
   <div className="About-Button">
   <button>
-  <i className="material-icons">place</i>
   Contact Us
   </button>
   </div>
@@ -30,19 +29,19 @@ const About = () => (
     <div className="Services-Stack">
     <div className="Service">
     <div className="Icon-Container">
-    <i className="material-icons">place</i>
+    <img src={require('../images/house2.png')}alt="house"/>
     </div>
       <p>Real Estate</p>
     </div>
     <div className="Service">
     <div className="Icon-Container">
-    <i className="material-icons">place</i>
+    <img src={require('../images/hotel.png')}alt="house"/>
     </div>
       <p>Hotel Management</p>
     </div>
     <div className="Service">
     <div className="Icon-Container">
-    <i className="material-icons">place</i>
+    <img src={require('../images/land.png')}alt="house"/>
     </div>
       <p>Land</p>
     </div>

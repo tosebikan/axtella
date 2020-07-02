@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => {
       <Link to="/">Home</Link>
       <Link to="/about/">About</Link>
       <Link to="/properties/">Properties</Link>
-      <Link to="/agents">Agents</Link>
+      {/*<Link to="/agents">Agents</Link>*/}
       <Link to="/faq">FAQ</Link>
       <Link to="/contact">Contact</Link>
     </nav>

@@ -5,10 +5,12 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 120px 20px 20px;
+  padding: 150px 20px 20px;
   color: #fff;
   height: 600px;
 }
+
+
 
 .About1{
   display: flex;
@@ -18,11 +20,26 @@
 
 .About1 h1{
   margin-bottom: 0;
+  animation-name: heroAni;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(0.2,0.8,0.2,1);
 }
 
 .About1 p{
   text-align: left;
   max-width: 80%;
+  animation-name: heroAni;
+  animation-duration: 2s;
+  transition: 1s cubic-bezier(0.2,0.8,0.2,1);
+}
+
+@keyframes heroAni {
+  0%{
+    transform: translateX(-100px);
+  }
+  100%{
+    transform: translateX(0);
+  }
 }
 
 .About-Button button{
@@ -33,6 +50,13 @@
   background: #fff;
   border: none;
   border-radius: 20px;
+  transition: 1s cubic-bezier(0.2, 0.8, 0.2, 1)
+}
+.About-Button button:hover{
+  background-color: black;
+  color: white;
+  transform: translateY(-3px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
 }
 
 .About-Image{
@@ -52,6 +76,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 700px;
+    padding-top: 120px;
   }
 
   .About1{
@@ -107,10 +132,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
+  background: #D8D8D8;
   width: 100px;
   height: 90px;
   border-radius: 20px;
+}
+
+.Icon-Container img{
+  max-width: 50px;
+  max-height: 50px;
 }
 
 @media (max-width: 700px){
@@ -119,6 +149,12 @@
     height: 50px;
     border-radius: 10px;
   }
+
+  .Icon-Container img{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
 }
 
 .Quote{
