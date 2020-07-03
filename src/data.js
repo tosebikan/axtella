@@ -83,7 +83,63 @@ properties:[
     featured: false,
     type: 'house',
     details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
-  }
+  },
+  {
+    id: '7',
+    tag: 'For Sale',
+    title: '1 Acre',
+    price: '120,000',
+    address: 'Coastal Spintex, Accra',
+    bedrooms: null,
+    baths: null,
+    size: 180,
+    image: require('./images/land1.jpg'),
+    featured: false,
+    type: 'land',
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
+  {
+    id: '8',
+    tag: 'For Sale',
+    title: '10 Plots',
+    price: '200,000',
+    address: 'East Legon',
+    bedrooms: null,
+    baths: null,
+    size: 150,
+    image: require('./images/land2.jpg'),
+    featured: false,
+    type: 'land',
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
+  {
+    id: '9',
+    tag: 'For Sale',
+    title: '2 Acres',
+    price: '200,000',
+    address: 'Coastal Spintex, Accra',
+    bedrooms: 3,
+    baths: 4,
+    size: 150,
+    image: require('./images/land3.jpg'),
+    featured: false,
+    type: 'land',
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
+  {
+    id: '10',
+    tag: 'For Sale',
+    title: '10 Plots',
+    price: '50,000',
+    address: 'Sakumono',
+    bedrooms: null,
+    baths: null,
+    size: 150,
+    image: require('./images/land4.jpg'),
+    featured: false,
+    type: 'land',
+    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+  },
 ]
  }
 
