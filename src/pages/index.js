@@ -1,6 +1,5 @@
 import React, {useState} from "react"
 import { Link } from "gatsby";
-import {Router} from '@reach/router';
 
 import Layout from "../components/layout"
 import '../components/layout.css';
@@ -63,10 +62,6 @@ const IndexPage = (props) => {
       <button>Send Message</button>
      </form>
     </div>
-
-    {/*<Router>
-      <PropertyDetails path="/app/property-details/:id" />
-    </Router>*/}
 
     <div className="Featured">
     <p>FEATURED LISTINGS</p>
