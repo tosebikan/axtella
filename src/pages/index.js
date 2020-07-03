@@ -77,33 +77,9 @@ const IndexPage = (props) => {
           <Link to={`/app/property-details/${feature.id}`}><img src={feature.image} alt="home1" className="Img"/></Link>
           <p className="Tag">{feature.tag}</p>
           <h2>{feature.title}</h2>
-          <p className="Price">{feature.price}</p>
+          <p className="Price">${feature.price}</p>
         </li>
     )}
-    {/*<li>
-        <img src={require('../images/home1.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Modern Apartment</h2>
-        <p className="Price">$ 1000/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home2.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Family Homes</h2>
-        <p className="Price">$ 800/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home3.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Rent</p>
-        <h2>Family Homes</h2>
-        <p className="Price">$ 900/MO</p>
-      </li>
-      <li>
-        <img src={require('../images/home4.jpg')} alt="home1" className="Img"/>
-        <p className="Tag">For Sale</p>
-        <h2>Luxury Apartment</h2>
-        <p className="Price">$ 1200/MO</p>
-      </li>*/}
     </ul>
     </div>
 

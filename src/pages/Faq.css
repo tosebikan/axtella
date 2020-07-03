@@ -3,6 +3,9 @@
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ), url('../images/wallpaper1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   padding: 150px 20px 20px;
   color: #fff;
   height: 100%;

@@ -6,6 +6,9 @@
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ), url('../images/wallpaper1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -136,7 +139,7 @@
   align-items: center;
   justify-content: center;
   //background: #D8D8D8;
-  background-color: rgba(255, 255, 255, 0.9);
+  border: 1px solid #D8D8D8;
   width: 100px;
   height: 90px;
   border-radius: 20px;
@@ -149,8 +152,8 @@
 
 @media (max-width: 700px){
   .Icon-Container{
-    width: 60px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
     border-radius: 10px;
   }
 
