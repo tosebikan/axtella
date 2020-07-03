@@ -251,6 +251,11 @@ a{
 .Featured li{
   margin: 0 30px;
 }
+.Featured h5{
+  margin: 0 20px 10px;
+  color: #9B9B9B;
+}
+
 
 
 @media (max-width: 750px){
@@ -269,20 +274,27 @@ a{
     justify-items: center;
     padding-left: 0;
   }
+
   .Featured li{
-    margin-bottom: 20px;
-    //margin-left: 0;
+    //margin-bottom: 20px;
+    margin: 10px;
+  }
+
+  .Img{
+    width: 200px;
+    height: 180px;
   }
 }
 
-.Featured li{
-  //margin-right: 2px
-}
 .Featured h2{
+  font-size: 21px;
   margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   margin-left: 20px;
+}
 
+.Featured h5{
+  font-size: 16px;
 }
 
 .Price{
