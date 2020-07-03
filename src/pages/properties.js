@@ -27,7 +27,7 @@ const Properties = () => {
     <div className="Prop-Container">
     {property.map((prop, id) =>
       <div className="Prop-Section" key={id}>
-      <img className="Center" src={prop.image} alt="nice-house"/>
+      <Link to={`/app/property-details/${prop.id}`}><img className="Center" src={prop.image} alt="nice-house"/></Link>
         <div className="Prop-Details">
           <div className="Prop-Details-Top">
           <p>{prop.title}</p>
@@ -55,8 +55,8 @@ const Properties = () => {
 
     <div className="Prop-Container">
       {lands.map((land, id) =>
-        <div className="Prop-Section">
-        <img className="Center" src={land.image} alt="nice-house"/>
+        <div className="Prop-Section" key={land.id}>
+        <Link to={`/app/property-details/${land.id}`}><img className="Center" src={land.image} alt="nice-house"/></Link>
           <div className="Prop-Details">
             <div className="Prop-Details-Top">
             <p>{land.title}</p>
