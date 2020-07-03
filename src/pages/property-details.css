@@ -16,8 +16,9 @@
 }
 
 .Prop-Details-Section img{
-  max-width: 800px;
-  max-height: 600px;
+  width: 770px;
+  height: 550px;
+  object-fit: cover;
   border-radius: 20px;
 }
 
@@ -27,12 +28,17 @@
   flex:1 2;
   flex-direction: column;
   padding: 20px;
-
 }
+
 .Map img{
   max-width: 100%;
   max-height: 405px;
   border-radius: 20px;
+}
+
+.Prop-Map-Container{
+  width: 100%;
+  height: 400px;
 }
 
 .Prop-Info{
@@ -138,8 +144,13 @@
   }
   .Prop-Details-Section img{
     max-width: 100%;
-    max-height: 450px;
+    max-height: 300px;
     border-radius: 20px;
+  }
+
+  .Prop-Map-Container{
+    width: 100%;
+    height: 300px;
   }
   .Prop-Info1 h1{
     font-size: 20px;
@@ -153,6 +164,18 @@
   .Prop-Info2 h3{
     font-size: 18px;
   }
+
+  .Prop-Extra{
+    display: flex;
+    justify-content: space-between;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+
+  .Prop-ExtraInfo{
+    margin: 0;
+  }
+
   .Prop-ExtraInfo h3{
     font-size: 18px;
   }

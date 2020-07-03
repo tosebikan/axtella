@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from "../components/layout";
 import data from '../data';
+import Map from './Map';
 
 import './property-details.css';
 
@@ -14,7 +15,7 @@ const PropertyDetails = (props) => {
   <Layout>
   <div className="Details">
     <div className="Prop-Details-Section">
-      <img alt="home1" src={require('../images/test.jpg')}/>
+      <img alt="home1" src={property.image}/>
       <div className="Prop-Info">
         <div className="Prop-Info1">
         <h1>{property.title}</h1>
@@ -57,7 +58,10 @@ const PropertyDetails = (props) => {
       </div>
     </div>
     <div className="Map">
-    <img alt="home1" src={require('../images/test.jpg')}/>
+    {/*<img alt="home1" src={require('../images/test.jpg')}/>*/}
+    <div className="Prop-Map-Container">
+      <Map/>
+    </div>
     <div className="Map-Info">
     <i className="material-icons">place</i>
     <h3>{property.address}</h3>
