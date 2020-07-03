@@ -102,7 +102,7 @@ const IndexPage = (props) => {
     <ul>
     {data.properties.map((property, id) =>
       <li key={id}>
-      <img src={property.image} alt='property' className="Img"/>
+      <Link to={`/app/property-details/${property.id}`}><img src={property.image} alt='property' className="Img"/></Link>
       <p className="Tag">{property.tag}</p>
       <h2>{property.title}</h2>
       <p className="Price">${property.price}</p>
