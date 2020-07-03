@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'gatsby';
 import Layout from "../components/layout";
 import './properties.css';
+import data from '../data';
 
 
-const Properties = () => (
+const Properties = () => {
+  const property = data.properties.filter((x) => x.type === 'house')
+  console.log('p',property)
+  return(
   <Layout>
   <div className="Prop-Hero">
     <div className="Prop-Banner">
@@ -17,63 +22,24 @@ const Properties = () => (
     <p>Quality houses in premium neighbourhoods</p>
     </div>
 
+
     <div className="Prop-Container">
-    <div className="Prop-Section">
-    <img className="Center" src={require('../images/home1.jpg')} alt="nice-house"/>
-      <div className="Prop-Details">
-        <div className="Prop-Details-Top">
-        <p>Modern Apartment</p>
-        <p>$ 100,000</p>
-        </div>
-        <div className="Prop-Details-Bottom">
-        <p>Coastal Spintex, Accra Ghana</p>
-        <h4> For Sale</h4>
-        </div>
-      </div>
-    </div>
-
+    {data.properties.map((prop, id) =>
       <div className="Prop-Section">
-      <img className="Center" src={require('../images/home2.jpg')} alt="nice-house"/>
+      <img className="Center" src={prop.image} alt="nice-house"/>
         <div className="Prop-Details">
           <div className="Prop-Details-Top">
-          <p>Family Home</p>
-          <p>$ 200,000</p>
+          <p>{prop.title}</p>
+          <p>${prop.price}</p>
           </div>
           <div className="Prop-Details-Bottom">
-          <p>Coastal Spintex, Accra Ghana</p>
-          <h4> For Sale</h4>
+          <p>{prop.address}</p>
+          <h4>{prop.tag}</h4>
           </div>
         </div>
       </div>
-
-      <div className="Prop-Section">
-      <img className="Center" src={require('../images/home3.jpg')} alt="nice-house"/>
-        <div className="Prop-Details">
-          <div className="Prop-Details-Top">
-          <p>Apartment</p>
-          <p>$ 5,000</p>
-          </div>
-          <div className="Prop-Details-Bottom">
-          <p>Coastal Spintex, Accra Ghana</p>
-          <h4> For Rent</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="Prop-Section">
-      <img className="Center" src={require('../images/home4.jpg')} alt="nice-house"/>
-        <div className="Prop-Details">
-          <div className="Prop-Details-Top">
-          <p>Apartment</p>
-          <p>$ 5,000</p>
-          </div>
-          <div className="Prop-Details-Bottom">
-          <p>Coastal Spintex, Accra Ghana</p>
-          <h4> For Rent</h4>
-          </div>
-        </div>
-      </div>
-    </div>
+    )}
+</div>
 
     <div className="Land-Banner">
       <div className="Prop-Hero-Text">
@@ -147,5 +113,6 @@ const Properties = () => (
   </div>
   </Layout>
 )
+}
 
 export default Properties;
