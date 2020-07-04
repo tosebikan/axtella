@@ -123,13 +123,26 @@
     height: 170px;
   }
 
+  .Contact-Info{
+    padding: 0;
+  }
+
   .Contact-Info-Form{
     margin-bottom: 0;
     margin-top: 10px;
   }
 
+  .Name input{
+
+    width: 178px;
+
+  }
+  .Phone input{
+    width: 178px;
+  }
+
   .Map-Container{
-    max-width: 500px;
+    max-width: 400px;
     max-height: 400px;
   }
 }
