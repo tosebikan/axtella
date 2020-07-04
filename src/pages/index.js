@@ -101,7 +101,7 @@ const IndexPage = (props) => {
       <Link to={`/app/property-details/${property.id}`}><img src={property.image} alt='property' className="Img"/></Link>
       <p className="Tag">{property.tag}</p>
       <h2>{property.title}</h2>
-      {/*<h5>{property.address}</h5>*/}
+      <h5>{property.address}</h5>
       <p className="Price">${property.price}</p>
       </li>
     )}
