@@ -115,6 +115,7 @@
 
 
 @media (max-width: 700px){
+
   .Prop-Banner{
     height: 150px;
     width: 100%;
@@ -140,26 +141,26 @@
 
 
   .Prop-Container{
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
   }
 
   .Prop-Section{
     //margin: 20px 20px 20px;
-    padding: 5px;
-    width: 200px;
-    height: 170px;
+    //margin: 10px;
+    //padding: 5px;
+    width: 180px;
+    height: 150px;
 
   }
 
   .Center{
-    height: 170px;
-    width: 200px;
+    height: 150px;
+    width: 180px;
   }
   .Prop-Details{
-    margin: 100px 0 0 15px;
-    width: 140px;
+    margin: 90px 0 0 15px;
+    width: 120px;
     height: 30px;
     border-radius: 15px;
   }
