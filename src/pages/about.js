@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "gatsby";
 import Layout from "../components/layout";
 import './About.css';
 
@@ -14,9 +15,9 @@ const About = () => (
   "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 
     <div className="About-Button">
-    <button>
+    <Link to="/contact"><button>
     Contact Us
-    </button>
+    </button></Link>
     </div>
   </div>
 
