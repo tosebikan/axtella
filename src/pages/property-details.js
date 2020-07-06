@@ -12,6 +12,7 @@ const PropertyDetails = (props) => {
   const property = data.properties.find((x) => x.id === props.id)
   //console.log('data', data.properties)
   console.log('property',property)
+  if (!props.id) return null
   return(
   <Layout>
   <div className="Details">
