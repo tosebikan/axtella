@@ -28,12 +28,12 @@ a{
 
 .Hero{
   background: linear-gradient(
-      rgba(80, 189, 162, 0.55),
-      rgba(80, 189, 162, 0.55)
+      rgba(80, 189, 162, 0.5),
+      rgba(80, 189, 162, 0.5)
     ), url('../images/wallpaper1.jpg');
   height: 700px;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
   background-attachment: fixed;
   display: flex;
   flex-direction: row;
@@ -62,6 +62,7 @@ a{
 
 @media (max-width: 750px){
   .Hero{
+    background-repeat: no-repeat;
     flex-direction: column;
     justify-content: center;
     height: 980px;
