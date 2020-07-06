@@ -6,7 +6,6 @@ import '../components/layout.css';
 import SEO from "../components/seo";
 import data from '../data';
 
-
 const IndexPage = (props) => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
