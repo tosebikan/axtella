@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'gatsby';
 import Layout from "../components/layout";
 import data from '../data';
 import Map from './Map';
@@ -58,7 +59,6 @@ const PropertyDetails = (props) => {
       </div>
     </div>
     <div className="Map">
-    {/*<img alt="home1" src={require('../images/test.jpg')}/>*/}
     <div className="Prop-Map-Container">
       <Map/>
     </div>
@@ -67,7 +67,7 @@ const PropertyDetails = (props) => {
     <h3>{property.address}</h3>
     </div>
     <div className="Map-Button-Container">
-    <button className="Map-Button">Contact Us</button>
+    <Link to="contact"><button className="Map-Button">Contact Us</button></Link>
     </div>
     </div>
   </div>
