@@ -44,8 +44,7 @@ const Properties = () => {
 
     <div className="Land-Banner">
       <div className="Prop-Hero-Text">
-      <p>Lands at amazing<br/>
-      prices.</p>
+      <p>Lands at amazing prices.</p>
       </div>
     </div>
     <div className="Prop-Title">
