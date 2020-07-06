@@ -176,6 +176,7 @@ a{
 .Form button{
   padding: 8px 20px;
   border: none;
+  border-radius: 10px;
   background: purple;
   color: #fff;
 }
