@@ -52,7 +52,7 @@ const IndexPage = (props) => {
 
      <form className="Form"
      onSubmit={submitForm}
-     action="https://formspree.io/mqkyylrk"
+     action="https://formspree.io/xayppdyw"
      method="POST"
      >
      <p>Need Help?</p>

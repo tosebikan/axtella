@@ -64,7 +64,7 @@ const Contact = () => {
     </div>
     <form className="Contact-Info-Form"
     onSubmit={submitForm}
-    action="https://formspree.io/mqkyylrk"
+    action="https://formspree.io/xayppdyw"
     method="POST"
     >
       <label className="Name">
