@@ -62,7 +62,7 @@ a{
 
 @media (max-width: 750px){
   .Hero{
-    background-repeat: no-repeat;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     height: 980px;
