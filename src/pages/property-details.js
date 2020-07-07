@@ -1,5 +1,8 @@
 import React from 'react';
 import {Link} from 'gatsby';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 import Layout from "../components/layout";
 import data from '../data';
 import Map from './Map';
@@ -13,11 +16,34 @@ const PropertyDetails = (props) => {
   //console.log('data', data.properties)
   console.log('property',property)
   if (!props.id) return null
+
+  const settings = {
+      dots: true,
+      fade:true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      arrows: true,
+      className:'slides'
+    };
+
   return(
   <Layout>
   <div className="Details">
     <div className="Prop-Details-Section">
-      <img alt="home1" src={property.image}/>
+      {/*<img alt="home1" src={property.image}/>*/}
+      <div className="SliderContainer">
+      <Slider {...settings}>
+      {property.images.map((image) =>
+        <div key={image.url}>
+          <img width='50%' src={image.url} alt="images"/>
+        </div>
+      )}
+      </Slider>
+      </div>
+
+
       <div className="Prop-Info">
         <div className="Prop-Info1">
         <h1>{property.title}</h1>
