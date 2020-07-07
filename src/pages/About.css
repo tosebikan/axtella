@@ -14,7 +14,7 @@
   justify-content: space-between;
   padding: 150px 20px 20px;
   color: #fff;
-  height: 600px;
+  height: 500px;
 }
 
 .About1{
@@ -102,6 +102,7 @@
     max-width: 90%;
     max-height: 405px;
     border-radius: 20px;
+      margin-top: 20px;
   }
 
 }
