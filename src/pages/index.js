@@ -105,7 +105,7 @@ const IndexPage = (props) => {
           <p className="Tag">{feature.tag}</p>
           <h2>{feature.title}</h2>
           <h5>{feature.address}</h5>
-          <p className="Price">${feature.price}</p>
+          <p className="Price">{feature.price}</p>
         </li>
     )}
     </ul>
@@ -134,7 +134,7 @@ const IndexPage = (props) => {
       <p className="Tag">{property.tag}</p>
       <h2>{property.title}</h2>
       <h5>{property.address}</h5>
-      <p className="Price">${property.price}</p>
+      <p className="Price">{property.price}</p>
       </li>
     )}
     </ul>

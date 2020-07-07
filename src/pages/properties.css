@@ -148,10 +148,12 @@
 
   .Prop-Section{
     margin: 20px 5px 20px;
-    //padding: 5px;
+    padding: 5px;
     width: 180px;
     height: 150px;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .Center{
@@ -159,14 +161,15 @@
     width: 180px;
   }
   .Prop-Details{
-    margin: 90px 0 0 15px;
-    width: 120px;
-    height: 30px;
+    margin: 80px 0 0 4px;
+    width: 140px;
+    height: 35px;
     border-radius: 15px;
   }
 
   .Prop-Details-Top p{
     font-size: 12px;
+    margin-bottom: 3px;
   }
   .Prop-Details-Bottom p{
     font-size: 10px;

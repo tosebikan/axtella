@@ -24,7 +24,7 @@ const PropertyDetails = (props) => {
         <h3>{property.address}</h3>
         </div>
         <div className="Prop-Info2">
-        <h1>Price: ${property.price}</h1>
+        <h1>Price: {property.price}</h1>
         <h3>{property.tag}</h3>
         </div>
       </div>

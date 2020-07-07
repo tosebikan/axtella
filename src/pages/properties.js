@@ -31,7 +31,7 @@ const Properties = () => {
         <div className="Prop-Details">
           <div className="Prop-Details-Top">
           <p>{prop.title}</p>
-          <p>${prop.price}</p>
+          <p>{prop.price}</p>
           </div>
           <div className="Prop-Details-Bottom">
           <p>{prop.address}</p>
@@ -59,7 +59,7 @@ const Properties = () => {
           <div className="Prop-Details">
             <div className="Prop-Details-Top">
             <p>{land.title}</p>
-            <p>${land.price}</p>
+            <p>{land.price}</p>
             </div>
             <div className="Prop-Details-Bottom">
             <p>{land.address}</p>
