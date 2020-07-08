@@ -22,6 +22,8 @@ const PropertyDetails = (props) => {
       fade:true,
       infinite: true,
       speed: 500,
+      autoplay: true,
+      autoplaySpeed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: true,
@@ -32,8 +34,7 @@ const PropertyDetails = (props) => {
   <Layout>
   <div className="Details">
     <div className="Prop-Details-Section">
-      {/*<img alt="home1" src={property.image}/>*/}
-      <div className="SliderContainer">
+      {property.images ? <div className="SliderContainer">
       <Slider {...settings}>
       {property.images.map((image) =>
         <div key={image.url}>
@@ -41,7 +42,8 @@ const PropertyDetails = (props) => {
         </div>
       )}
       </Slider>
-      </div>
+      </div> : <img alt="home1" src={property.image}/>}
+
 
 
       <div className="Prop-Info">
