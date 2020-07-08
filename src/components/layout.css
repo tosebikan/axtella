@@ -27,10 +27,14 @@ a{
 }
 
 .Hero{
-  background: linear-gradient(
+  /*background: linear-gradient(
       rgba(80, 189, 162, 0.5),
       rgba(80, 189, 162, 0.5)
-    ), url('../images/wallpaper1.jpg');
+    ), url('../images/wallpaper1.jpg');*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ), url('../images/wallpaper1.jpg');
   height: 700px;
   background-position: center;
   background-size: cover;
@@ -69,7 +73,7 @@ a{
   }
   .HeroGroup{
     margin-top: 20px;
-    padding: 40px 20px 20px;
+    padding: 80px 20px 20px;
     max-width: 500px;
   }
   .Hero h1{
@@ -87,11 +91,8 @@ a{
 
 .ContactButton{
   background-color: #FFD7A0;
-  //position: absolute;
-  //left: 0;
-  //top: 110px;
   border-width: 0;
-  padding: 8px 25px;
+  padding: 8px 10px;
   border-radius: 10px;
   color: #fff;
   display: flex;
@@ -306,10 +307,14 @@ a{
 }
 
 .AboutUs{
-  background: linear-gradient(
+  /*background: linear-gradient(
       rgba(140, 20, 252, 0.55),
       rgba(140, 20, 252, 0.55)
-    ), url('../images/about1.jpg');
+    ), url('../images/about1.jpg');*/
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ), url('../images/about1.jpg');
     height: 600px;
     background-size: cover;
     background-position: center;

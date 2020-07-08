@@ -42,9 +42,9 @@ const IndexPage = (props) => {
     <SEO title="Home" />
     <div className="Hero">
       <div className="HeroGroup">
-      <button className="ContactButton">
+      <a href='tel:+2330558270333'><button className="ContactButton">
       <i style={{color: '#fff'}}className="material-icons">phone_iphone</i>
-      +233 54 135 6456</button>
+      +233 55 827 0333</button></a>
       <h1>FIND YOUR DREAM HOME TODAY</h1>
       <p>Contact Axtella for all your Construction & Real Estate Services.</p>
       <Link to="/contact"><button className="ContactUsButton">Contact us</button></Link>
