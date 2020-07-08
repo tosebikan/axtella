@@ -1,7 +1,7 @@
 import React from 'react';
 import GoogleMapReact from 'google-map-react';
+import Marker from '../components/Marker';
 
-const Address = ({ text }) => <div style={{fontSize:18, display: 'flex', flexDirection: 'row', alignItems: 'center'}}><i style={{color: 'red', fontSize:30}}className="material-icons">place</i>{text}</div>;
 
 export default class Map extends React.Component{
   static defaultProps = {
@@ -12,12 +12,13 @@ export default class Map extends React.Component{
     zoom: 15
   };
   render(){
+    const {marker, zoomlevel} = this.props
     return(
       <div style={{ height: '100%', width: '100%'}}>
       <GoogleMapReact
           bootstrapURLKeys={{ key: process.env.GATSBY_API_KEY }}
-          defaultCenter={this.props.center}
-          defaultZoom={this.props.zoom}
+          defaultCenter={marker}
+          defaultZoom={zoomlevel}
           options={{
       styles: [
         { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
@@ -101,10 +102,10 @@ export default class Map extends React.Component{
       ]
     }}
         >
-        <Address
-            lat={5.636864}
-            lng={-0.097823}
-            text="Coastal Spintex, Accra"/>
+        <Marker
+            lat={marker.lat}
+            lng={marker.lng}
+            text={marker.address}/>
         </GoogleMapReact>
 
       </div>
