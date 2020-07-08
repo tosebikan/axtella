@@ -2,45 +2,85 @@
 properties:[
   {
     id: '1',
-    tag: 'For Sale',
-    title: 'Modern Apartment',
-    price: '100,000',
-    address: 'Fifth Avenue, East-Legon',
-    bedrooms: 3,
+    tag: 'For Rent',
+    title: '2Bedroom Apartment',
+    price: 'GHC2,200/month',
+    address: 'Dome, K Boat Junction',
+    bedrooms: 2,
     baths: 4,
     size: 150,
-    image: require("./images/home1.jpg"),
+    image: require("./images/domek4.jpg"),
+    images:[
+      {
+        url: 'https://www.dropbox.com/s/ug3op6ra3akwmtf/domek1.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/pyxwe8msj8k9j4n/domek2.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/2im5rbcd0z6ch98/domek3.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/8x15pzt05a8q0a1/domek4.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/pxtuhylg0b8wr8p/domek5.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/oix8vhy73isczji/domek6.jpg?raw=1'
+      },
+    ],
     featured: true,
     type: 'house',
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    details: "Brand new two bedroom apartment for rental."
   },
   {
     id: '2',
-    tag: 'For Sale',
-    title: 'Family Home',
-    price: '800,000',
-    address: 'Fifth Avenue, East-Legon',
+    tag: 'For Rent',
+    title: 'Newly Built Apartments',
+    price: 'GHC2,200/month',
+    address: 'East-Legon Hills school junction',
     bedrooms: 3,
     baths: 4,
     size: 150,
-    image: require('./images/home2.jpg'),
+    image: require('./images/elh1.jpg'),
+    images:[
+      {
+        url: 'https://www.dropbox.com/s/aw2xkkfox5exy9m/elh6.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/qiu15bfl9bf66rt/elh5.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/pipdklgtmf5jh2i/elh4.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/s1mn04p0ggaouo1/elh1.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/zlk2u20105nnwb0/elh3.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/rqv463sexb61kfk/elh2.jpg?raw=1'
+      },
+    ],
     featured: true,
     type: 'house',
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    details: "Recently built apartments up for rent at East-legon Hills school junction."
   },
   {
     id: '3',
-    tag: 'For Rent',
-    title: 'Family Home',
-    price: '900/Mo',
-    address: 'coastal, Spintex',
-    bedrooms: 3,
+    tag: 'ForSale',
+    title: '4Bedroom House',
+    price: '$410,000',
+    address: 'East-Legon',
+    bedrooms: 4,
     baths: 4,
     size: 150,
     image: require('./images/home3.jpg'),
     featured: true,
     type: 'house',
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    details: "Modern 4 Bedroom House for sale at East Legon"
   },
   {
     id: '4',
