@@ -34,3 +34,23 @@ text-align: center;
 .Faq-Quest-Section p{
   margin-top: 0;
 }
+
+@media (max-width: 700px){
+  .Faq-Quest-Section h3{
+    font-size: 14px;
+  }
+  .Faq-Quest-Section p{
+    font-size: 14px;
+  }
+
+  .Faq-Quest-Section{
+    padding: 0 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 30px;
+  }
+
+  .Faq-Hero{
+    padding: 120px 20px 20px;
+  }
+}
