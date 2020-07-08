@@ -32,7 +32,12 @@ properties:[
     ],
     featured: true,
     type: 'house',
-    details: "Brand new two bedroom apartment for rental."
+    details: "Brand new two bedroom apartment for rental.",
+    marker:{
+      address: 'Dome, K Boat Junction',
+      lat:5.646477, 
+      lng:-0.226653,
+    }
   },
   {
     id: '2',
