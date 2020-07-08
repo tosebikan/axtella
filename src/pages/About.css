@@ -14,7 +14,7 @@
   justify-content: space-between;
   padding: 150px 20px 20px;
   color: #fff;
-  height: 650px;
+  height: 100%;
 }
 
 .About1{
@@ -80,8 +80,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    height: 1200px;
+    height: 100%;
     padding-top: 120px;
+  }
+
+  .About1 p{
+    font-size: 14px;
   }
 
   .About1{
@@ -95,11 +99,10 @@
   .About-Image{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
   }
 
   .About-Image img{
-    max-width: 90%;
+    max-width: 100%;
     max-height: 405px;
     border-radius: 20px;
       margin-top: 20px;
