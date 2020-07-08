@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import Layout from "../components/layout";
 import './contact.css';
 import Map from './Map';
+import Marker from '../components/Marker';
 
 
 const Contact = () => {
@@ -34,13 +35,19 @@ const Contact = () => {
     xhr.send(data);
   }
 
+  const marker = {
+    address: "Coastal Spintex, Accra",
+    lat: 5.636864,
+    lng:-0.097823,
+  }
+
   return(
   <Layout>
   <div className="Contact-Hero">
     <div className='Contact-Map-Section'>
     {/*<img src={require('../images/map.jpg')} alt="contact map"/>*/}
     <div className="Map-Container">
-    <Map />
+      <Map marker={marker} zoomlevel={15}/>
     </div>
       <div className="Contact-Address">
       <i style={{color: 'red'}}className="material-icons">place</i>
