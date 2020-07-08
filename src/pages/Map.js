@@ -13,6 +13,7 @@ export default class Map extends React.Component{
   };
   render(){
     const {marker, zoomlevel} = this.props
+
     return(
       <div style={{ height: '100%', width: '100%'}}>
       <GoogleMapReact
@@ -102,10 +103,16 @@ export default class Map extends React.Component{
       ]
     }}
         >
-        <Marker
+        {marker ? <Marker
             lat={marker.lat}
             lng={marker.lng}
             text={marker.address}/>
+            :
+            <Marker
+                lat={5.636864}
+                lng={-0.097823}
+                text=""/>}
+
         </GoogleMapReact>
 
       </div>
