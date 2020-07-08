@@ -190,7 +190,7 @@ const IndexPage = (props) => {
       <Lottie
 	    options={defaultOptions}
         height={200}
-        width={400}
+        width={200}
       />
     </div>
   </Layout>

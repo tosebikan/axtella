@@ -64,6 +64,7 @@ a{
 @media (max-width: 750px){
   .Hero{
     background-repeat: no-repeat;
+    background-attachment:scroll;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -339,6 +340,7 @@ a{
   .AboutUs{
     display: flex;
     background-repeat: no-repeat;
+    background-attachment:scroll;
     flex-direction: column;
     height: 920px;
     padding: 20px;
@@ -382,6 +384,7 @@ a{
   .Help{
     display: flex;
     background-repeat: no-repeat;
+    background-attachment: scroll;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -476,14 +479,17 @@ a{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  //max-width: 300px;
   height: 500px;
   padding: 0 20px;
 }
 
 @media (max-width: 640px){
+  .Finder{
+    padding: 0;
+  }
   .Finder h1{
     text-align: center;
+    max-width: 80%;
   }
 }
 
