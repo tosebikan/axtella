@@ -194,6 +194,15 @@ a{
   padding: 0 5px;
 }
 
+@media (max-width: 700px){
+  .Form input{
+    -webkit-appearance: none;
+  }
+  .Message textarea{
+    -webkit-appearance: none;
+  }
+}
+
 .Featured{
   display: flex;
   flex-direction: column;
