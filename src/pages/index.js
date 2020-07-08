@@ -1,5 +1,7 @@
 import React, {useState} from "react"
 import { Link } from "gatsby";
+import Lottie from 'react-lottie';
+import animationData from '../lotties/house';
 
 import Layout from "../components/layout"
 import '../components/layout.css';
@@ -13,6 +15,15 @@ const IndexPage = (props) => {
   const [status, setStatus] = useState('')
 
   const featured = data.properties.filter((property) => property.featured === true);
+
+  const defaultOptions = {
+      loop: true,
+      autoplay: true,
+      animationData: animationData,
+      rendererSettings: {
+        preserveAspectRatio: "xMidYMid slice"
+      }
+    };
 
 
   const submitForm = (ev) => {
@@ -176,6 +187,11 @@ const IndexPage = (props) => {
       +233 54 135 6456</p>
       <h1>LET'S FIND THE RIGHT PROPERTY FOR YOU</h1>
       <Link to="/contact"><button>Contact us</button></Link>
+      <Lottie
+	    options={defaultOptions}
+        height={200}
+        width={400}
+      />
     </div>
   </Layout>
 )}
