@@ -19,8 +19,8 @@
 }
 
 .Map-Container{
-  width: 100%;
-  height: 300px;
+  width: 800px;
+  height: 400px;
 }
 
 
@@ -128,21 +128,31 @@
   }
 
   .Contact-Info-Form{
-    margin-bottom: 0;
+    margin-bottom: 60px;
     margin-top: 10px;
   }
 
   .Name input{
-    width: 178px;
+    width: 300px;
+    margin-bottom: 10px;
   }
   .Phone input{
-    width: 178px;
+    width: 300px;
+  }
+
+  .Email input{
+    width: 300px;
+  }
+
+  .Contact-Message textarea{
+    width: 310px;
   }
 
   .Map-Container{
-    max-width: 400px;
-    max-height: 400px;
+    width: 350px;
+    height: 300px;
   }
+
 }
 
 .Form-Button{

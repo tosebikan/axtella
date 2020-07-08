@@ -59,11 +59,12 @@ const Contact = () => {
     <div className="Contact-Info-Details">
       <div className="Contact-Info-Details-Block">
       <p>Phone</p>
-      <h4>054135668</h4>
+      <h4>+233 055 827 0333</h4>
+      <h4>+233 024 363 6033</h4>
       </div>
       <div className="Contact-Info-Details-Block">
       <p>Email</p>
-      <h4>Axtella@gmail.com</h4>
+      <h4>axtellaproperties@gmail.com</h4>
       </div>
       <div className="Contact-Info-Details-Block">
       <p>Mon - Fri: 8:00 am - 6pm</p>
