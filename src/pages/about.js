@@ -9,10 +9,12 @@ const About = () => (
   <div className="About-Hero">
   <div className="About1">
   <h1>About Us</h1>
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  <p><b>Axtella Properties & Investments</b> is a fully legislated Real Estate Company based in Accra. <br/> We have over 5 years combined experience covering Sales, Letting & Property Management. We are specialized in Luxury Properties & investment opportunities for foreign investors. Our reputation has grown to represent a trust worthy and transparent independent company providing an exceptional level of customer service.
   </p>
   <p>
-  "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  The team <b>Axtella</b> take the time to get to know each client on a one to one basis. We pride ourselves on our professionalism, efficiency and personal touch in dealing with every enquiry, if we don't have what you are looking for, we have an abundance of contacts throughout Ghana who can help us find your idyllic modern home<br/> Whether you're looking to buy, sell or rent, we can offer you a tailored service that you can't get anywhere else. If you have any questions, please don't hesitate to get in touch with us .</p>
+
+  <p><b>Experienced-Trusted-Proven</b></p>
 
     <div className="About-Button">
     <Link to="/contact"><button>
