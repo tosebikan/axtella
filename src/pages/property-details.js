@@ -89,7 +89,7 @@ const PropertyDetails = (props) => {
     </div>
     <div className="Map">
     <div className="Prop-Map-Container">
-      <Map marker={property.marker} zoomlevel={15}/>
+      {property.marker ? <Map marker={property.marker} zoomlevel={15}/> : null}
     </div>
     <div className="Map-Info">
     <i className="material-icons">place</i>
