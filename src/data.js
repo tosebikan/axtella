@@ -77,7 +77,42 @@ properties:[
     bedrooms: 4,
     baths: 4,
     size: 150,
-    image: require('./images/home3.jpg'),
+    image: require('./images/4h1.jpg'),
+    images:[
+      {
+        url: 'https://www.dropbox.com/s/82999utsaayyhoz/4h1.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/0n8xguqk4jzeidl/4h2.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/kklrt37hugl3x73/4h3.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/2qykmzo8874j1nq/4h4.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/u3cx31q1xz9hgcm/4h5.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/3bo5q8yg13q837j/4h6.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/h0mv0kvgpm52wg0/4h7.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/iqhf6k1xwo4a0bf/4h8.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/muatrr5w6vyp4q7/4h9.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/bo9rxy1dxqpk6ct/4h10.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/m8pkh7wru3qz0h9/4h11.jpg?raw=1'
+      },
+    ],
     featured: true,
     type: 'house',
     details: "Modern 4 Bedroom House for sale at East Legon"
