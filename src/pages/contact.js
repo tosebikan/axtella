@@ -36,9 +36,9 @@ const Contact = () => {
   }
 
   const marker = {
-    address: "Coastal Spintex, Accra",
-    lat: 5.636864,
-    lng:-0.097823,
+    address: "Glory Complex, Vulcanizer",
+    lat: 5.644232,
+    lng:-0.224398,
   }
 
   return(
@@ -50,8 +50,8 @@ const Contact = () => {
       <Map marker={marker} zoomlevel={15}/>
     </div>
       <div className="Contact-Address">
-      <i style={{color: 'red'}}className="material-icons">place</i>
-      <p>Vulcanizer junction, off Christian Village Dome pillar two road</p>
+      <i style={{color: 'red', fontSize: 30}}className="material-icons">place</i>
+      <p>Vulcanizer junction, off Christian Village Dome pillar two road,<br/> 3rd floor, Glory Complex</p>
       </div>
     </div>
 
