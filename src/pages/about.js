@@ -38,16 +38,34 @@ const About = () => (
     </div>
     <div className="Service">
     <div className="Icon-Container">
-    <img src={require('../images/hotel.png')}alt="house"/>
+    <img src={require('../images/PM.png')}alt="house"/>
     </div>
-      <p>Hotel Management</p>
+      <p>Property Management</p>
     </div>
-    <div className="Service">
-    <div className="Icon-Container">
-    <img src={require('../images/land.png')}alt="house"/>
-    </div>
-      <p>Land</p>
-    </div>
+      <div className="Service">
+      <div className="Icon-Container">
+      <img src={require('../images/land.png')}alt="house"/>
+      </div>
+        <p>Land Sales</p>
+      </div>
+      <div className="Service">
+      <div className="Icon-Container">
+      <img src={require('../images/construction.png')}alt="house"/>
+      </div>
+        <p>Building Construction</p>
+      </div>
+      <div className="Service">
+      <div className="Icon-Container">
+      <img src={require('../images/rent&invest.png')}alt="house"/>
+      </div>
+        <p>Property Rentals & Investment</p>
+      </div>
+      <div className="Service">
+      <div className="Icon-Container">
+      <img src={require('../images/cleaning.png')}alt="house"/>
+      </div>
+        <p>Cleaning Services</p>
+      </div>
     </div>
   </div>
   <div className="Quote">

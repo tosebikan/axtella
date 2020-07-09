@@ -125,6 +125,7 @@
 
 .Services-Stack{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -142,16 +143,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  //background: #D8D8D8;
   border: 1px solid #D8D8D8;
   width: 100px;
   height: 90px;
   border-radius: 20px;
 }
 
+.Service p{
+  text-align: center;
+}
+
+
 .Icon-Container img{
-  max-width: 50px;
-  max-height: 50px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 @media (max-width: 700px){
@@ -164,6 +169,17 @@
   .Icon-Container img{
     max-width: 40px;
     max-height: 40px;
+  }
+
+  .Service p{
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .Services-Stack{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
   }
 
 }
