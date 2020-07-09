@@ -66,10 +66,12 @@ const About = () => (
       </div>
         <p>Cleaning Services</p>
       </div>
+
     </div>
+    <p style={{textAlign:'center', margin:0}}>Commercial & Residential</p>
   </div>
   <div className="Quote">
-  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+  <p>"Axtella Properties & Investments, we're dedicated to providing the best customer services at amazing costs and unbeatable client experiences "</p>
     <div className="Profile">
     <img src={require('../images/about.jpg')}alt="profile"/>
     <h3>Edward</h3>
