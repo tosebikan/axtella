@@ -51,7 +51,7 @@ const Contact = () => {
     </div>
       <div className="Contact-Address">
       <i style={{color: 'red', fontSize: 30}}className="material-icons">place</i>
-      <p>Vulcanizer junction, off Christian Village Dome pillar two road,<br/> 3rd floor, Glory Complex</p>
+      <p>Vulcanizer junction, off Christian Village<br/> Dome pillar two road, 3rd floor, Glory Complex</p>
       </div>
     </div>
 
