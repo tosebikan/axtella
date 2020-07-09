@@ -403,6 +403,7 @@ a{
   }
   .HelpGroup{
     margin: 0;
+    max-width: 90%;
   }
   .HelpCard{
     padding: 0;
