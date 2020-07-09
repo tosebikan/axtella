@@ -308,8 +308,8 @@ a{
 
 .AboutUs{
   background: linear-gradient(
-      rgba(140, 20, 252, 0.55),
-      rgba(140, 20, 252, 0.55)
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.8)
     ), url('../images/about1.jpg');
     height: 600px;
     background-size: cover;
@@ -397,7 +397,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 1024px;
+    height: 100%;
     padding: 0;
     margin: 0;
   }
@@ -423,7 +423,7 @@ a{
   .HelpCard ul{
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin: 0 0 20px;
     padding: 0;
   }
 }

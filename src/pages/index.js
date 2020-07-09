@@ -127,8 +127,8 @@ const IndexPage = (props) => {
       <h3>WHO WE ARE</h3>
       <h1>ABOUT US</h1>
 
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+      <p><b>Axtella Properties & Investments</b> is a fully legislated Real Estate Company based in Accra. <br/></p>
+      <p>We have over 5 years combined experience covering Sales, Letting & Property Management.We are specialized in Luxury Properties & investment opportunities for foreign investors. Our reputation has grown to represent a trust worthy and transparent independent company providing an exceptional level of customer service... </p>
       <Link to="/about"><button>Read More</button></Link>
       </div>
         <div className="AboutImg">
