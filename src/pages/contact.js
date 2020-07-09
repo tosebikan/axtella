@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import Layout from "../components/layout";
 import './contact.css';
 import Map from './Map';
-import Marker from '../components/Marker';
+
 
 
 const Contact = () => {
@@ -51,7 +51,7 @@ const Contact = () => {
     </div>
       <div className="Contact-Address">
       <i style={{color: 'red'}}className="material-icons">place</i>
-      <p>Coastal Spintex, Accra</p>
+      <p>Vulcanizer junction, off Christian Village Dome pillar two road</p>
       </div>
     </div>
 

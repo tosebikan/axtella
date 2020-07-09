@@ -38,6 +38,7 @@
   align-items: center;
 }
 
+
 .Contact-Info{
   padding: 20px;
   display: flex;
@@ -151,6 +152,9 @@
   .Map-Container{
     width: 350px;
     height: 300px;
+  }
+  .Contact-Address p{
+    font-size: 16px;
   }
 
 }
