@@ -135,21 +135,53 @@ properties:[
   {
     id: '4',
     tag: 'For Sale',
-    title: 'Luxury Apartment',
-    price: '120,000',
-    address: 'East Airport',
+    title: '4Bedroom Ensuit',
+    price: '$310,000',
+    address: 'Spintex, Baatsonaa',
     marker:{
-      address: 'East-Legon',
-      lat:5.624711,
-      lng:-0.142902,
+      address: 'Spintex, Baatsonaa',
+      lat:5.622060,
+      lng:-0.087850,
     },
-    bedrooms: 3,
+    bedrooms: 4,
     baths: 4,
     size: 150,
-    image: require('./images/home4.jpg'),
+    image: require('./images/sb1.jpg'),
+    images:[
+      {
+        url: 'https://www.dropbox.com/s/p53uc1vuaz4y8oc/sb2.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/sme669h85n72onb/sb3.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/ard0h868lzn5tre/sb4.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/qdu7djw27ifhoez/sb5.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/jc2tdkeopmub76i/sb6.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/3xspybh3c4crb1u/sb7.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/v089ygoriuamtqp/sb8.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/9s5u2fvgodel19h/sb9.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/pk5qqviymngp30m/sb10.jpg?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/6frp3amhhycivki/sb11.jpg?raw=1'
+      },
+    ],
     featured: true,
     type: 'house',
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    details: "A moderm 4 Bedroom ensuit house for sale at Baatsonaa, Spintex comes with a fitted Kitchen and Air Conditions"
   },
   {
     id: '5',
