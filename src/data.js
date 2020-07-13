@@ -185,22 +185,36 @@ properties:[
   },
   {
     id: '5',
-    tag: 'For Rent',
-    title: 'Family Homes',
-    price: '900/Mo',
-    address: 'West Legon',
+    tag: 'For Sale',
+    title: '3Bedroom Townhouse',
+    price: '$250,000',
+    address: 'adjiringanor',
     marker:{
-      address: 'West Legon',
-      lat:5.649775,
-      lng:-0.212002,
+      address: 'adjiringanor',
+      lat:5.651098,
+      lng:-0.135439,
     },
     bedrooms: 3,
     baths: 4,
     size: 150,
-    image: require('./images/home2.jpg'),
+    image: require('./images/adj1.jpg'),
+    images:[
+      {
+        url: 'https://www.dropbox.com/s/jqd2utp1jhyiuvv/adj1.JPG?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/xpvksxmqg66ugc0/adj3.JPG?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/k8p4hx19wleovui/adj2.JPG?raw=1'
+      },
+      {
+        url: 'https://www.dropbox.com/s/iqendca8q1kt7gf/adj4.JPG?raw=1'
+      },
+    ],
     featured: false,
     type: 'house',
-    details: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+    details: "3 bedroom Townhouses for sale at adjiringanor. All bedrooms ensuit, including a guest washroom, fitted kitchen, outhouse, compound can take 3 cars, tarred road network"
   },
   {
     id: '6',
