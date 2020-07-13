@@ -58,20 +58,21 @@ const PropertyDetails = (props) => {
       </div>
 
       <div className="Prop-Extra">
-        <div className="Prop-ExtraInfo">
+        {property.bedrooms ? <div className="Prop-ExtraInfo">
           <h3>Bedrooms</h3>
           <div className="Prop-ExtraBlock">
           <i className="material-icons">airline_seat_individual_suite</i>
           <h3 className="Info-Num">{property.bedrooms}</h3>
         </div>
-      </div>
-        <div className="Prop-ExtraInfo">
+        </div> : null}
+
+        {property.baths ?<div className="Prop-ExtraInfo">
           <h3>Bathrooms</h3>
           <div className="Prop-ExtraBlock">
           <i className="material-icons">bathtub</i>
           <h3 className="Info-Num">{property.baths}</h3>
-        </div>
-      </div>
+          </div>
+        </div> : null}
 
         <div className="Prop-ExtraInfo">
           <h3>Size</h3>
