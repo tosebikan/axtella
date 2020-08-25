@@ -32,9 +32,9 @@ const Header = ({ siteTitle }) => {
         <Link to="/properties/" onClick={toggleNav}>
           Properties
         </Link>
-        <Link to="/agents" onClick={toggleNav}>
+        {/*<Link to="/agents" onClick={toggleNav}>
           Agents
-        </Link>
+        </Link>*/}
         <Link to="/faq" onClick={toggleNav}>
           FAQ
         </Link>
