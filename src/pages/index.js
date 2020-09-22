@@ -225,7 +225,7 @@ const IndexPage = props => {
               />
               <h3>OFFICES</h3>
               <p>
-                Get acces to Offices for lease in the best locations in accra.
+                Get access to Offices for lease in the best locations in accra.
               </p>
               <Link to="/properties">
                 <button>Find Offices</button>
